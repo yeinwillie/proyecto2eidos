@@ -24,6 +24,11 @@ h2{
     font-size: 26px;   
 }
 
+h4 {
+  
+  margin: 0;
+}
+
 body{
     padding: 0;
     margin: 0;
@@ -132,19 +137,20 @@ body{
 
   }
 
-  #inicio{
+  #inicio, #proyectos{
     scroll-margin-top: 100px;
     
   }
 
   /*Seccion proyectos*/
 
-  .titulo_principal {
-    margin-top: 120px;
+  .proyectos_titulo {    
+    text-align: center;
 }
 
 .cards {
     display: inline-block;
+    text-align: center;
     padding: .5rem 1rem;
     border-radius: 20px;
     border: 1px rgba(211, 211, 211, 0.486) solid;
@@ -160,18 +166,20 @@ body{
 
 .cards img {
     transition: 0.2s;
-    width: 150px;
+    width: 180px;
     border-radius: 20%;
-    margin-bottom: 10px;
+    margin-bottom: 1px;
     padding: 1px;
 }
 
 .main_container {    
-    margin-top: 50px;
+    margin-top: 11px;
     display: flex;
     flex-wrap: wrap;
     justify-content:space-evenly;
-    align-items: center;
+    /*align-items: center;*/ /*Saque porque aplique flex star en pantalla completa se iban al centro, pendiente, aplicar media para dar espacio al titulo*/
+    min-height: 100vh;
+    align-content: flex-start;
 }
 
 .social_media {
