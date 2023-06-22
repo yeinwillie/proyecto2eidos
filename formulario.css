@@ -1,6 +1,4 @@
 .formulario{
-    /*tamaño de pantalla*/
-    height: 100vh;  
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -108,8 +106,9 @@ textarea::-webkit-scrollbar-thumb{
 }
 
 .formulario__btn {
-    margin-top: 0.3rem;
-    width: 15%;    
+    margin-top: 0.5rem;
+    width: 35%;   
+    padding: .1rem; 
 }
 
 /*Estilos para validar campos*/

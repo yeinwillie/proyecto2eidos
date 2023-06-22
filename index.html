@@ -123,62 +123,63 @@
 
         <section class="contactame" id="contactame">
            
-                <div class="contactame_parrafo">
-                    <h2>
-                        Contactame!
-                    </h2>
-            <form action="" class="formulario" id="formulario">
+            <div class="contactame_parrafo">
+                <h2>
+                    Contactame!
+                </h2>
+
+                <form action="" class="formulario" id="formulario">
                 
-                <!--Grupo Nombre-->
-                <div class="formulario__grupo" id="grupo__nombre">
-                    <label for="nombre" class="formulario__label">Nombre:</label>            
-                    <div class="formulario__grupo-input" >                
-                        <input name="nombre" type="text" placeholder="Escribe tu nombre" id="nombre" class="formulario-input" style="width:500px">
-                        <i class="formulario__validacion-estado fa-solid fa-circle-xmark fa-lg"></i>
+                    <!--Grupo Nombre-->
+                    <div class="formulario__grupo" id="grupo__nombre">
+                        <label for="nombre" class="formulario__label">Nombre:</label>            
+                        <div class="formulario__grupo-input" >                
+                            <input name="nombre" type="text" placeholder="Escribe tu nombre" id="nombre" class="formulario-input" style="width:500px">
+                            <i class="formulario__validacion-estado fa-solid fa-circle-xmark fa-lg"></i>
+                        </div>
+                        <p class="formulario__input-error">El nombre no puede tener número o caracteres especiales</p>
                     </div>
-                    <p class="formulario__input-error">El nombre no puede tener número o caracteres especiales</p>
-                </div>
-                
-                <!--Grupo Email-->
-                <div class="formulario__grupo" id="grupo__email">
-                    <label for="email" class="formulario__label">Email:</label>            
-                    <div class="formulario__grupo-input">                
-                        <input name="email" type="email" placeholder="Escribe tu email" id="email" class="formulario-input" style="width:500px">
-                        <i class="formulario__validacion-estado fa-solid fa-circle-xmark fa-lg"></i>
+                    
+                    <!--Grupo Email-->
+                    <div class="formulario__grupo" id="grupo__email">
+                        <label for="email" class="formulario__label">Email:</label>            
+                        <div class="formulario__grupo-input">                
+                            <input name="email" type="email" placeholder="Escribe tu email" id="email" class="formulario-input" style="width:500px">
+                            <i class="formulario__validacion-estado fa-solid fa-circle-xmark fa-lg"></i>
+                        </div>
+                        <p class="formulario__input-error">El email no es valido</p>
                     </div>
-                    <p class="formulario__input-error">El email no es valido</p>
-                </div>
 
-                <!--Grupo Mensaje-->
-                <div class="formulario__grupo" id="grupo__mensaje">
-                    <label for="mensaje" class="formulario__label">Mensaje:</label>            
-                    <textarea name="mensaje" id="mensaje" cols="30" rows="5" class="textarea" placeholder="Escribe tu mensaje" ></textarea>
-                    <p class="formulario__input-error">No olvides escribir tu mensaje</p>
-                </div>                       
-            
-            
-                <!--Boton-->
-                <div class="formulario__grupo formulario__grupo-btn-enviar">
-                    <button type="submit" class="formulario__btn">Enviar</button>
-                    <p class="formulario__mensaje-exito" id="formulario__mensaje-exito"> Mensaje enviado exitosamente!</p>
-                </div>
+                    <!--Grupo Mensaje-->
+                    <div class="formulario__grupo" id="grupo__mensaje">
+                        <label for="mensaje" class="formulario__label">Mensaje:</label>            
+                        <textarea name="mensaje" id="mensaje" cols="30" rows="8" class="textarea" placeholder="Escribe tu mensaje" ></textarea>
+                        <p class="formulario__input-error">No olvides escribir tu mensaje</p>
+                    </div>                       
                 
-                <!--Mensaje de error-->
                 
-                <div class="formulario__mensaje" id="formulario__mensaje">
-                    <p> <i class="fa-solid fa-triangle-exclamation fa-sm"></i><b> Error:</b> Hay campos por corregir</p>
-                </div>
+                    <!--Boton-->
+                    <div class="formulario__grupo formulario__grupo-btn-enviar">
+                        <button type="submit" class="formulario__btn inicio_link_btn">Enviar</button>
+                        <p class="formulario__mensaje-exito" id="formulario__mensaje-exito"> Mensaje enviado exitosamente!</p>
+                    </div>
+                    
+                    <!--Mensaje de error-->
+                    
+                    <div class="formulario__mensaje" id="formulario__mensaje">
+                        <p> <i class="fa-solid fa-triangle-exclamation fa-sm"></i><b> Error:</b> Hay campos por corregir</p>
+                    </div>
 
 
-            </form>  
+                </form>  
    
-                <div class="icons">
+                <div class="icons" id="icons">
                      <a href="#"><i class="fa-brands fa-linkedin-in fa-2xl" style="color: #050505;"></i></a>
-                     <a href="#"><i class="fa-solid fa-envelope fa-2xl" style="color: #050505;"></i></a>
-                     <a href="#"><i class="fa-brands fa-github fa-2xl" style="color: #050505;"></i></a>
+                     <a href="#"><i class="fa-solid fa-envelope fa-2xl icon" style="color: #050505;"></i></a>
+                     <a href="#"><i class="fa-brands fa-github fa-2xl icon" style="color: #050505;"></i></a>
                 </div>               
 
-         
+            </div> 
         </section>
 
     </main>
