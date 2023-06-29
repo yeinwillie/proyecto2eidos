@@ -1,0 +1,4 @@
+
+2. Centrar mis proyectos (agregar un mediaquery para tablet y si es asi corregir el logo y demas)
+3. Agregar texto con habilidades al lado de la imagen mismas del CV
+4. corregir la x del formulario de contacto

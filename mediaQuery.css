@@ -1,5 +1,19 @@
-@media screen and (min-width:480px){ 
-    .icons-error{
+@media screen and (min-width:1280px){ 
+
+    .habilidades_lista{
+        display: block;
+        text-align:justify;
+        line-height: 3;
+      }
+
+    .habilidades{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: 2rem;
+    }
+     
+    .icons, .icons-error{
         margin-top: 3.8%;  
       }
 
@@ -10,19 +24,35 @@
     .main_container {   
 
         min-height: unset;      
-        height: 100vh;
+        height: 85vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        justify-content: space-evenly;
         margin-top: 0%;
-        margin-left: 33%;
+        margin-left: 17.5%;
       
     }
 
     .cards {
+      
        align-items: center;
        margin-top: 0%;
-    }
+       margin-left: 3rem;
+    }  
+
+    .proyecto_extra_tablet{
+        display: block;
     
+    }
+
 }
+
+@media screen and (min-width:1280px){
+    .proyecto_extra, .proyecto_extra_tablet{
+        display: block;
+    }
+}
+
+
