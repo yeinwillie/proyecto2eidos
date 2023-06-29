@@ -1,0 +1,28 @@
+@media screen and (min-width:480px){ 
+    .icons-error{
+        margin-top: 3.8%;  
+      }
+
+    .proyectos_titulo {    
+        margin-bottom: 0%;
+    }
+
+    .main_container {   
+
+        min-height: unset;      
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0%;
+        margin-left: 33%;
+      
+    }
+
+    .cards {
+       align-items: center;
+       margin-top: 0%;
+    }
+    
+}
