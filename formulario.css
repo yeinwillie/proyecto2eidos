@@ -72,6 +72,11 @@ textarea::-webkit-scrollbar-thumb{
     opacity: 0;
  }
 
+ .formulario__grupo.nombre  .formulario__validacion-estado{
+    right: 14px; /* Ajusta el valor según sea necesario */
+   
+  }
+
  .formulario__mensaje{
     height: 20px;
     line-height: 20px;
